@@ -58,6 +58,12 @@ python3 hasher.py "3" "folder1" "folder2" "folder3"
 
 This will hash all the files inside the folder and place them in the "hashes" folder in the root directory. It will also find duplicated files and list the location (file path) of it in the json file generated.
 
+To compare the folders, you need to use the "compare_hashes.py" with 1 argument, the folder name of where the hashes are saved.
+
+```
+python3 compare_hashes.py "hashes"
+```
+
 # Todo
 
 - add a script to automatically copy/sync all the folders
