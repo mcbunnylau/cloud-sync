@@ -69,3 +69,4 @@ python3 compare_hashes.py "hashes"
 - add a script to automatically copy/sync all the folders
 - validating all the folders are in-sync
 - automated folder generation when syncing new files
+- add feature: folder path inputs (instead of folder name) as arguments for the "hasher.py" script
